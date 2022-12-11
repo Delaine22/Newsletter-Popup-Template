@@ -1,0 +1,84 @@
+* {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  body {
+    color: #3b3b3b;
+    background-image: url(Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*text-align: center;*/
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+.card{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px,
+}
+.p1{
+  text-align: center;
+}
+h1{
+  color: white;
+  margin-top: 30px;
+}
+.header{
+  text-align: center;
+  width: 450px;
+  height: 230px;
+  background-image: url(Assets/Pattern.png);
+  background-color: #1b52e5;;
+  font-size: xx-large;
+}
+.content{
+  width: 450px;
+  background-color: white;
+}
+form{
+  text-align: center;
+}
+#email{
+  background-color: #ededed;
+  height:30px ;
+width: 255px;
+border-style: none;
+border-radius: 7px;
+padding: 7px 14px;
+}
+
+#button{
+  color: white;
+  border-style: none;
+  background-color: #1b52e5;
+  height: 40px;
+  width: 135px;
+  padding: 7px 14px ;
+  border-radius: 7px;
+}
+.p2{
+  margin-left: 20px ;
+  color: #777777;
+}
+.article{
+ margin-left: 25%;
+  display: flex;
+  flex-direction: row;
+  color: #3b3b3b;
+}
+img{
+  margin-right: 10px;
+}
+.p3{
+  text-align: center;
+}
